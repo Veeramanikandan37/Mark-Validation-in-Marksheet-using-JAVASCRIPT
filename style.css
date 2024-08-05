@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bold{
+    font-weight: bolder;
+}
+input{
+    width: 25px;
+    background-color: #f0ce8f;
+    border: none;
+}
+#percentege{
+    width: 40px;
+    text-align: center;
+}
+#logo{
+    margin-top: 30px;
+}
+table{
+    background-color: #f0ce8f;
+}
+.marksheet{
+    border: 2px solid black;
+    margin: 10px;
+    width: 800px;
+    padding: 20px;
+    background-color:wheat;
+}
+.marksheet .firstline{
+    display: flex;
+    justify-content: space-between;
+}
+.marksheet header h1,.auth{
+    display: block;
+    text-align: center;
+}
+.marksheet .table1,.table2{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table1{
+    margin: 10px 0px;
+}
+.table1 td{
+    align-items: center;
+}
+.table1 .name_course{
+    width: 395px;
+}
+.table1 .reg_no{
+    width: 195px;
+}
+.table1 table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table1 tr td{
+    border: 2px solid black;
+}
+.table2 table,th,td{
+    border: 2px solid black;
+}
+.table2 table .row1 p{
+  display:inline;
+}
+.table2 table{
+    width: 800px;
+}
+.table2 table #sub_code{
+    width: 100px;
+    
+}
+.table2 table  #sub_name{
+    width: 250px;
+   
+}
+#max_mark{
+    width: 80px; 
+}
+.table2 table #marks_obtained{
+    width: 210px;
+    
+}
+#theoryhead,#practicalhead{
+    width: 68px;
+    font-size: 1rem;
+}
+#totalhead{
+    width: 70px;
+    font-size: 1rem;
+}
+.table2 table #tot_words {
+    width: 150px;
+}
+.table2 table .row1{
+    text-align: start;
+    padding-left:20px ;
+}
+.table2 table .st{
+    text-align: start;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    text-align: center;
+    margin: 10px 0px;
+}
+ .txt{
+    text-align: center;
+    margin-bottom: -5px;
+ }
+.headp{
+    font-size: 1.1rem;
+    font-weight: bolder; 
+}
